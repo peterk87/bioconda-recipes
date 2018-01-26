@@ -1,6 +1,5 @@
-{% set version = "0.5.2" %}
-
-{% set sha256 = "1275a8e5f098ac859d8c71b7fb237e99d87158f9e0238f53650cd3959463681b" %}
+{% set version = "0.5.3" %}
+{% set sha256 = "e2ccaeb40d588a87eb0f63d783aa285f9784dc3ec486564833dd328ccacdc54f" %}
 
 package: 
   name: haystack_bio
@@ -12,7 +11,6 @@ source:
 
   url: "https://github.com/pinellolab/haystack_bio/archive/{{ version }}.tar.gz"
 
-
 build: 
   entry_points: 
     - "haystack_pipeline = haystack.run_pipeline:main"
@@ -21,7 +19,7 @@ build:
     - "haystack_tf_activity_plane = haystack.generate_tf_activity_plane:main"
     - "haystack_download_genome = haystack.download_genome:main"
     - "haystack_run_test = haystack.haystack_common:run_testdata"
-  number: 7
+  number: 0
 
 about: 
   home: "https://github.com/pinellolab/haystack_bio"
