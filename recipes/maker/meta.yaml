@@ -16,6 +16,7 @@ requirements:
     - augustus >=3.2.3
     - blast
     - exonerate
+    - gcc
     - infernal
     - mir-prefer
     - repeatmasker
@@ -41,6 +42,7 @@ requirements:
     - blast
     - exonerate
     - infernal
+    - libgcc
     - mir-prefer
     - repeatmasker
     - snap
